@@ -33,7 +33,6 @@ unique (x:xs) = x : unique (filter (/=x) xs)
 
 
 -- 2
-
 -- Construa função que remova o valor mínimo de uma lista.
 parcialDelete'min :: (Ord a) => [a] -> [a]
 parcialDelete'min [] = []
